@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Contacto | Natanael Chávez</title>
+        <meta charset="UTF-8">
+        <meta name="Grape_Web" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&family=Roboto+Slab&display=swap" rel="stylesheet"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, ">
+    </head>
+<body>
+    <div class="contenedormain">
+        <header>
+            <div class="Comp1">
+                
+                <nav>
+                    <div class="logoheader">
+                        <img src="Recursos/img/Logo_semitransparente.png" alt="">
+                    </div>
+                    <ul>
+                        
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="Form.html">Contactme</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="gracias" >
+            <img src="recursos/img/rubik.gif" alt="">
+            <h2>Gracias por tomarte el tiempo de escribir. <br> ¿En que puedo ayudarte?</h2>
+        </section>
+        <section class="Formula" >
+            
+            <form action="enviar.php" class="cf"  name="enviar" method="POST">
+            <div class="half left cf">
+                <input type="text" id="input-name" placeholder="nombre" name="nombre" required>
+                <input type="text" id="input-email" placeholder="Correo Electronico" name="correo" required>
+                <input type="text" id="input-subject" placeholder="asunto" name="asunto">
+            </div>
+            <div class="half right cf">
+                <textarea name="message" type="text" id="input-message" placeholder="Mensaje" name="mensaje" required></textarea>
+            </div>  
+            <input type="submit" value="Enviar" id="input-submit">
+            </form>
+        </section>
+
+
+
+     
+
+
+
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        const $form = document.querySelector('#form')
+
+        $form.addEventListener('submit', handleSubmit)
+        
+        function handleSubmit(event) {
+            event.preventDefault()
+            const form = new FormData(this)
+            console.log(form.get('name'))
+        }
+
+
+
+    </script>
+
+
+</body>
+</html>
