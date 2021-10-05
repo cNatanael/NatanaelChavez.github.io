@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Contacto | Natanael Chávez</title>
+        <meta charset="UTF-8">
+        <meta name="Grape_Web" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&family=Roboto+Slab&display=swap" rel="stylesheet"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, ">
+    </head>
+<body>
+    
+    	<!--Contact form-->
+	<div style="margin:80px">
+		<h1>Contact</h1>
+		<h4>Contact us directly if you have any questions</h4>
+		<p>
+			Please write your name, email address and a message below if you have any questions.
+			One of our staff members will be happy to contact you directly and answer your questions as soon as possible. 
+		</p>
+		<form method="post">
+        {% csrf_token %}
+            {{form.as_p}}
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+
+</body>
+</html>
