@@ -5,12 +5,13 @@ const typed = new Typed('.semitittle1', {
         'Desarollador Web', 
         'Desarrolador de Python',
         'Editor de video',
-        'Amante de los gatos'
+        'Amante de los gatos',
+        'Apasionado al arte'
 
     ],
     stringsElement: '#cadenas-texto',
     typeSpeed: 10,
-    startDelay: 300,
+    startDelay: 1000,
     backSpeed: 10,
     smartBackspace: true,
     shuffle: false,

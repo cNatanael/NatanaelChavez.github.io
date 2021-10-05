@@ -978,6 +978,17 @@ footer h6{
     width: 40%;
     text-align: center;
 }
+.rigo2{
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.3em;
+    margin-top: 0em;
+    font-weight: lighter;
+    width: 40%;
+    text-align: center;
+   
+    
+}
 .flotante2 button{
     background-color: transparent;
     border: 1px solid rgb(49, 189, 189);
@@ -1041,7 +1052,7 @@ footer h6{
 /*-----------------------*/
 /*resolucion mediana*/
 /*----------------------*/
-@media screen and (max-width: 1360px){
+@media screen and (max-width: 1666px){
     /* Encabezado*/
     
     .Comp1{
@@ -1941,22 +1952,154 @@ footer h6{
 
 
 
+ }
 
+
+ @media screen and (max-width: 1420px){
     
+    /*FOrmulario de conacto*/
+    form {
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+        height: 300px;
+        margin-top: -150px;
+    }
 
+ }
 
-
-
-
-
-
-
+ @media screen and (max-width: 1420px){
+    
+    /*FOrmulario de conacto*/
+    form {
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+        height: 300px;
+        margin-top: -150px;
+    }
+    .gracias img{
+        width: 8em;
+    }
 
  }
 
 
+ @media screen and (max-width: 860px){
+     
+     form {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        height: 300px;
+        margin-top: -150px;
+    }
+    input, textarea {
+        font-size: 1em;
+        border: 0;
+        padding: 1em;
+        border-radius: 10px;
+        display: block;
+        width: 90%;
+        margin-top: 1em;
+        font-family: 'Noto Sans', sans-serif;
+        box-shadow: 0px 0px 4px 0.4px rgb(224, 220, 220);
+        resize: none;
+        margin-left: 0em;
+       
+       
+      
+     }
 
+ }
 
+ @media screen and (max-width: 730px){
+
+    .gracias h2{
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+
+    /*FOrmulario de conacto*/
+    form {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        height: 600px;
+        margin-top: -150px;
+        display: block;
+    }
+    
+       input, textarea {
+          font-size: 1em;
+          border: 0;
+          padding: 1em;
+          border-radius: 10px;
+          display: block;
+          width: 90%;
+          margin-top: 1em;
+          font-family: 'Noto Sans', sans-serif;
+          box-shadow: 0px 0px 4px 0.4px rgb(224, 220, 220);
+          resize: none;
+          margin-left: 0em;
+         
+         
+        
+       }
+       
+       #input-submit {
+          color: rgb(128, 238, 205); 
+          background: none;
+          border: 2px solid rgb(128, 238, 205);
+          box-shadow: none;
+          cursor: pointer;
+          width: 30%;
+          height: 7%;
+         margin: 0 auto;
+         padding: 0;
+         font-size: 1em;
+         font-family: 'Noto Sans', sans-serif;
+         font-weight: 800;
+         
+       }
+       #input-submit:hover{
+        color: rgb(255, 255, 255); 
+        background: rgb(128, 238, 205);
+        border: 2px solid rgb(128, 238, 205);
+       }
+       
+       textarea {
+           height: 50%;
+           margin-right: 0;
+       }
+     
+     
+     
+     .half {
+       float: left;
+       width: 100%;
+       margin-bottom: 0em;
+       height: 40%;
+     }
+     
+     .right { 
+         width: 100%; 
+         padding: 0;
+         margin-right: 0;
+        margin-top: 0;
+        }
+     
+     .left {
+          margin-right: 0%; 
+    
+     }
+     
+     .Formula{
+         margin-top: 0;
+         
+     }
+    
+ }
  
 
 
@@ -2977,11 +3120,12 @@ footer h6{
     color:rgb(32, 226, 168) ;
 }
 /*fotter2*/
+
 .fot2{
     width: 100%;
     height: 1.5em;
     background-color: rgb(8, 47, 47);
-    margin-top: 35em;
+    margin-top: 40em;
     padding-top: 10em;
     position: sticky;
 
@@ -3006,7 +3150,7 @@ footer h6{
     margin-bottom: 0em;
     
 }
-.divo{
+.divos2{
     display: none;
 }
 .fot2 h6{
@@ -3018,7 +3162,6 @@ footer h6{
     font-size: 0.8em;
     letter-spacing: 0.11112222em;
 }
-
 .flotante2{
     margin: 0 auto;
     border-radius: 10px;
@@ -3052,9 +3195,6 @@ footer h6{
     
 
 }
-.divos{
-    display: none;
-}
 .flotante2 button{
     background-color: transparent;
     border: 1px solid rgb(49, 189, 189);
@@ -3071,6 +3211,9 @@ footer h6{
     font-size: 1.3em;
 
 }
+.rigo2{
+    font-size:1em ;
+}
 .flotante2 button:hover{
     background-color:rgb(49, 189, 189) ;
     color: #fff;
@@ -3082,6 +3225,3 @@ footer h6{
 
 
 }
-
-
-
